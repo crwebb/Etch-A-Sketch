@@ -1,0 +1,129 @@
+
+/* Heading & Buttons */
+body {
+    background-color: rgb(153, 53, 53);
+}
+
+#heading-container {
+    display: flex;
+    justify-content: center;
+}
+
+ h1 {
+    margin: 30px auto 20px auto;
+    font-family: cursive;
+    font-size: 52px;
+    color: rgb(250, 215, 134)
+}
+
+button {
+    width: 200px;
+    background-color: rgb(188, 220, 226);
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 3px solid  rgb(59, 59, 59);
+    margin: 5px 5px 40px 5px; 
+    padding: 10px;
+}
+
+
+button:hover {
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-family: sans-serif;
+    border: 3px solid  rgb(59, 59, 59);
+    margin: 5px 5px 40px 5px; 
+    padding: 10px;
+    box-shadow: 6px 6px rgb(145, 185, 192);
+}
+
+
+#artboard-container {
+    display: flex;
+    justify-content: center;
+}
+
+.artBoard {
+    width: 200px;
+    background-color: rgb(238, 233, 224);
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: 3px solid  rgb(59, 59, 59);
+    margin: 5px 5px 40px 5px; 
+    padding: 10px;
+}
+
+.artBoard:hover {
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-family: sans-serif;
+    border: 3px solid  rgb(59, 59, 59);
+    margin: 5px 5px 40px 5px; 
+    padding: 10px;
+    box-shadow: 6px 6px rgb(209, 195, 167);
+
+}
+
+/* Grid Container*/
+.grid {
+    display: grid;
+    height: 875px;
+    width: 875px;
+    margin: 0 auto; 
+    border: 1px solid black; 
+    background: rgb(235, 235, 235);
+}
+
+/* Cell's / Div's */
+.cell {
+     border: 1px solid rgb(209, 209, 209); 
+}
+
+
+.draw10 {
+    opacity: 0.1;
+}
+
+.draw20 {
+    opacity: 0.2;
+}
+
+.draw30 {
+    opacity: 0.3;
+}
+
+.draw40 {
+    opacity: 0.4;
+}
+
+.draw50 {
+    opacity: 0.5;
+}
+
+.draw60 {
+    opacity: 0.6;
+}
+
+.draw70 {
+    opacity: 0.7;
+}
+
+.draw80 {
+    opacity: 0.8;
+}
+
+.draw90 {
+    opacity: 0.9;
+}
+
+.draw100 {
+    opacity: 1;
+}
+
+
+
+
+Resources1×0.5×0.25×Rerun

@@ -1,4 +1,4 @@
-HTML CSS JSResult
+
 const grid = document.querySelector('.grid');
 let resetGridValue = document.getElementById('resetBtn').value;
 
@@ -238,4 +238,3 @@ start();
 
 
 
-Resources1×0.5×0.25×Rerun
